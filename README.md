@@ -55,7 +55,7 @@ git clone https://github.com/Yisus7u7/Metasploit_by-yisus
 
 chmod +x ~/Metasploit_by-yisus/*
 
-mv ~/Metasploit_by-yisus/Metasploit.sh $HOME
+mv ~/Metasploit_by-yisus/metasploit.sh $HOME
 
 Ahora ejecute :
 
