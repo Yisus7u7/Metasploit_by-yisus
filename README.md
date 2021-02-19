@@ -8,7 +8,7 @@ estos pasos:
 SIGUE LOS SIGUIENTES PASOS EN ORDEN :
 !es recomendable usar Android 7 en adelante!
 
-#ruby 2.7.2
+# ruby 2.7.2
 
 primero eliminamos la versión 3.0.0 de ruby:
 
@@ -46,7 +46,7 @@ ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [arm-linux-androideabi]
 
 con que salga 2.7.2 ya todo va correcto
 
-#instalación de Metasploit
+# instalación de Metasploit
 
 Primero clone este repositorio 
 
@@ -66,5 +66,21 @@ O
 
 ./metasploit.sh
 
+# créditos :
 
+Gracias gushmazuko, hice solo una muy pequeña
+edición de tu script, y me gusta gente como tu,
+que no cifran sus scripts "para que no los copien" 
+y los scripts que hacen no tienen sentido o son
+solo bobadas 
+
+Repositorio de gushmazuko:
+https://github.com/gushmazuko/metasploit_in_termux 
+
+abhaker, gracias por alojar ruby 2.7.2 en tus
+repositorios, gracias por eso de ante mano
+
+Repositorio de abhacker :
+
+https://github.com/abhackerofficial/abhacker.repo
 
