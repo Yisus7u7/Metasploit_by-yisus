@@ -22,6 +22,10 @@ pkg install curl
 
 bash -c "$(curl -fsSL https://bit.do/abhacker-repo)"
 
+si no te funciona este comando sigue las instrucciones 
+en su repositorio oficial :
+https://github.com/abhackerofficial/abhacker.repo
+
 Nota (si estas usando fish o zsh cambia tu 
 terminal a bash)
 
