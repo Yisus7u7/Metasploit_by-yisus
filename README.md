@@ -41,9 +41,8 @@ ruby --version
 
 Nos debe salir esto :
 
-⋊> ~ ruby --version                                09:25:39
-ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [arm-linux-androideabi]
-
+![imagen 1](./ruby.png)
+                             
 con que salga 2.7.2 ya todo va correcto
 
 # instalación de Metasploit
@@ -66,6 +65,8 @@ O
 
 ./metasploit.sh
 
+![imagen 2](./msf.png)
+
 # créditos :
 
 Gracias gushmazuko, hice solo una muy pequeña
@@ -84,3 +85,15 @@ Repositorio de abhacker :
 
 https://github.com/abhackerofficial/abhacker.repo
 
+# Manifiesto
+
+puedes hacer reviews en tu blog, página canal de 
+YouTube etc.., también puedes crear un repositorio 
+con un script para que toda esta instalación 
+sea más fácil, siempre y cuando dejes créditos 🙂🌟
+
+# apoyame!!
+
+Buscame en tik tok como: @yisus7u7v
+
+en YouTube : https://youtube.com/channel/UCjUSc4m0DpPgJ3iHNZtQmQw
