@@ -33,9 +33,51 @@ Luego actualizamos:
 
 pkg update && pkg upgrade 
 
-Ahora instalanos ruby 2.7.2 :
+Ahora instalamos ruby 2.7.2 :
 
 pkg install ruby2
+
+# No sirvió?, instala el 
+paquete manualmente, para saber tu arquitectura 
+usa el comando :
+
+uname -m
+
+Luego de saber tu arquitectura descarga el 
+paquete compatible con ella :
+
+# Binario para Armv7l y otros celulares ARM:
+
+pkg add libyaml libffi gdbm perl tar proot aapt
+
+wget https://github.com/abhackerofficial/abhacker.repo/raw/master/dists/abhacker/main/binary-arm/ruby.deb
+
+dpkg -i ruby.deb
+
+# Binario Pará aarch64 :
+
+pkg add libyaml libffi gdbm perl tar proot aapt
+
+wget https://github.com/abhackerofficial/abhacker.repo/blob/master/dists/abhacker/main/binary-aarch64/ruby.deb
+
+dpkg -i ruby.deb
+
+# Binario para i686 :
+
+pkg add libyaml libffi gdbm perl tar proot aapt
+
+wget https://github.com/abhackerofficial/abhacker.repo/blob/master/dists/abhacker/main/binary-i686/ruby.deb
+
+dpkg -i ruby.deb 
+
+# Binario para x86_64 :
+
+pkg add libyaml libffi gdbm perl tar proot aapt
+
+wget https://github.com/abhackerofficial/abhacker.repo/blob/master/dists/abhacker/main/binary-x86_64/ruby.deb
+
+dpkg -i ruby.deb 
+
 
 # exelente
 
