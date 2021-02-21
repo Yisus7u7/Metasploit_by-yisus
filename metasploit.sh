@@ -24,7 +24,7 @@ source <(echo "c3Bpbm5lcj0oICd8JyAnLycgJy0nICdcJyApOwoKY291bnQoKXsKICBzcGluICYKI
 echo
 center "*** Dependencies installation..."
 pkg upgrade -y -o Dpkg::Options::="--force-confnew"
-pkg install -y autoconf bison clang coreutils curl findutils apr apr-util postgresql openssl readline libffi libgmp libpcap libsqlite libgrpc libtool libxml2 libxslt ncurses make ruby2 ncurses-utils ncurses git wget unzip zip tar termux-tools termux-elf-cleaner pkg-config git -o Dpkg::Options::="--force-confnew"
+pkg install -y autoconf bison clang coreutils curl findutils apr apr-util postgresql openssl readline libffi libgmp libpcap libsqlite libgrpc libtool libxml2 libxslt ncurses make ncurses-utils ncurses git wget unzip zip tar termux-tools termux-elf-cleaner pkg-config git -o Dpkg::Options::="--force-confnew"
 
 echo
 center "*** Fix ruby BigDecimal"
