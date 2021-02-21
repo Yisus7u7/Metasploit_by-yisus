@@ -91,6 +91,18 @@ Nos debe salir esto :
                              
 con que salga 2.7.2 ya todo va correcto
 
+# conjelar actualizaciones 
+
+Luego de tener ruby 2.7.2, conjelaremos sus actualizaciones 
+para evitar que se actualize :
+
+apt-mark hold ruby
+
+Luego :
+
+pkg update && pkg upgrade, luego de esto veras
+que termux no actualizará ruby a la versión 3.0.0 
+
 # instalación de Metasploit
 
 Primero clone este repositorio 
