@@ -1,3 +1,8 @@
+`repositorio desmantenido`
+Cambiese a 
+
+https://github.com/gushmazuko/metasploit_in_termux 
+
 # Metasploit_by-yisus
 Este instalador instalará Metasploit en termux solucionando el error de ruby 3.0.0 
 
